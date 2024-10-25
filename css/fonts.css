@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Black;
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: Bevan-Regular;
+    src: url(../fonts/Bevan-Regular.ttf);
+}
+
+@font-face {
+    font-family: Epilogue-Regular;
+    src: url(../fonts/Epilogue-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}

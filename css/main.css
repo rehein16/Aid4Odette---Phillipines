@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #bdcddb 0%, #3071d3 100%);
+  background-attachment: fixed;
+}
+
+header {
+  overflow: hidden;
+  top: 0;
+  position: sticky;
+}
+
+.logo {
+  height: 100px;
+  left: 10px;
+  position: static;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 50px;
+  font-family: Poppins-Bold;
+}
+
+.nav-link {
+  color: black;
+}
+
+.hero {
+}
+
+h1.heroTitle {
+  font-family: Raleway-Black;
+}
+
+p.heroDesc {
+  font-family: Poppins-Regular;
+}
+.heroImage {
+  height: 110%;
+  border: 8px solid #72d1e7;
+  width: 110%;
+}
+
+.btn.btn-primary {
+  background-color: #72d1e7;
+  border-color: black;
+  font-family: Poppins-Bold;
+  color: black;
+  border-radius: 24px;
+  padding: 16px 32px;
+  margin: 10px;
+}
+
+.btn.btn-primary:hover {
+  background-color: #47828f;
+  border-color: black;
+  font-family: Poppins-Bold;
+  color: black;
+  border-radius: 24px;
+  padding: 16px 32px;
+  margin: 10px;
+}
+
+.btn.btn-secondary {
+  background-color: #72d1e7;
+  font-family: Poppins-Bold;
+  border-color: #72d1e7;
+  color: black;
+  border-radius: 24px;
+  padding: px 32px;
+  margin-top: -7px;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #47828f;
+  border-color: #47828f;
+  font-family: Poppins-Bold;
+  color: black;
+  border-radius: 24px;
+}
+
+h1.aboutTitle {
+  font-family: Raleway-Black;
+  color: #0c2750;
+}
+
+h2.aboutTitles2 {
+  font-family: Bevan-Regular;
+  margin-bottom: 10px;
+}
+
+p.aboutDesc {
+  font-family: Epilogue-Regular;
+  margin-bottom: 10px;
+}
+
+h3.aboutDesc2 {
+  font-family: Poppins-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  text-align: right;
+  color: #000000;
+  text-shadow: 0px 4px 5.9px rgba(0, 0, 0, 0.25);
+}
+
+h2.footNotes{
+    font-family: Bevan-Regular;
+    text-align: center;
+}
+
+
+.imageDonate{
+    background-image: url(../images/part2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+}
+
+.bevanRegular{
+    font-family: Bevan-Regular;
+    text-align: center;
+}
+
+h5{
+    text-align: center;;
+}
+
+h5.epilogueRegular{
+    font-family: Epilogue-Regular;
+    text-align: center;
+}
+
+.footer{
+    background: linear-gradient(180deg, #BDCDDB 0%, #93B4E7 100%);
+
+}
+
+h3.footerTitles{
+    font-family: Poppins-Bold;
+}
+
+.footerLinks{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins-Regular;    
+}
+
+.card-body{
+    
+}
+
+@media screen and (min-width: 200px) and (max-width: 968px)  {
+    nav{
+        background-color: #0C2750;
+    }
+
+    .nav-link{
+        color: white;
+    }
+}
+
+.collapse.show li{
+    text-align: center;
+    color: white;
+}
+
+
+.collapsing{
+    background-color: #0C2750;
+}
+
+.collapsing li{
+    text-align: center;
+    color: white;
+}
